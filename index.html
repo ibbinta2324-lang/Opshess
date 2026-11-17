@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OPSHESS – Carte de visite NFC</title>
+<meta name="description" content="OPSHESS – Nongo, Conakry, Guinée. Appelez, écrivez ou localisez-moi.">
+<meta name="theme-color" content="#05050f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238a3dff'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='Arial' font-weight='900'%3EO%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="aurora" aria-hidden="true"></div>
+
+<main class="card">
+  <p class="tag reveal" style="--i:0">CARTE DE VISITE NUMÉRIQUE</p>
+
+  <div class="stage reveal" style="--i:1">
+    <h1 class="logo" id="logo" data-text="OPSHESS">OPSHESS</h1>
+  </div>
+
+  <nav class="actions" aria-label="Me contacter">
+    <a class="btn3d b-call reveal" style="--i:3" href="tel:+224611143015">
+      <span>APPELER OPSHESS</span><small>611143015</small>
+    </a>
+    <a class="btn3d b-mail reveal" style="--i:4" href="mailto:ibbinta23.24@gmail.com">
+      <span>M'ENVOYER UN EMAIL</span><small>ibbinta23.24@gmail.com</small>
+    </a>
+  </nav>
+
+  <div class="socials">
+    <a class="btn3d b-snap reveal" style="--i:5" href="https://www.snapchat.com/add/opshes" target="_blank" rel="noopener"><span>SNAPCHAT</span><small>@opshes</small></a>
+    <a class="btn3d b-insta reveal" style="--i:5" href="https://www.instagram.com/ops.hess" target="_blank" rel="noopener"><span>INSTAGRAM</span><small>@ops.hess</small></a>
+  </div>
+
+  <section class="loc glass reveal" style="--i:6">
+    <div class="pin" aria-hidden="true"></div>
+    <div>
+      <h2>NONGO – CONAKRY, GUINÉE</h2>
+      <a class="btn3d b-map" href="https://www.google.com/maps/search/?api=1&amp;query=Nongo%2C%20Conakry%2C%20Guin%C3%A9e" target="_blank" rel="noopener"><span>ME LOCALISER</span></a>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
